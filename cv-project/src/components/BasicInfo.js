@@ -1,9 +1,14 @@
 import React from 'react';
 
-function BasicInfo(props) {
+function BasicInfo({info}) {
   return (
     <div>
-      Basic Info will go here
+    <h3>Basic Information</h3>
+      <ul>
+        <li>{info.name}</li>
+        <li>{info.email}</li>
+        <li>{info.phoneNumber}</li>
+      </ul>
     </div>
   );
 };

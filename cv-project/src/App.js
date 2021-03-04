@@ -47,9 +47,9 @@ class App extends Component {
       <div>
         <h1>Curriculum Vitae</h1>
         <div>
-          <BasicInfo /><br/>
-          <Education /><br/>
-          <Experience /><br/>
+          <BasicInfo info={this.state.basicInfo} /><br/>
+          <Education info={this.state.education} /><br/>
+          <Experience info={this.state.experience} /><br/>
         </div>
       </div>
     );
