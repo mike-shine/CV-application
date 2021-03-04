@@ -25,9 +25,23 @@ class App extends Component {
         dateEnded: 'N/A'
       }]
     }
+    // this.addBasicInfo = this.addBasicInfo.bind(this);
+    // this.addEducation = this.addEducation.bind(this);
+    // this.addExperience = this.addExperience.bind(this);
+  }
 
+  addBasicInfo(info) {
 
   }
+
+  addEducation(info) {
+
+  }
+
+  addExperience(info) {
+
+  }
+
   render() {
     return (
       <div>
