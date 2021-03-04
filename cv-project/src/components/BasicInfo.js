@@ -5,9 +5,9 @@ function BasicInfo({info}) {
     <div>
     <h3>Basic Information</h3>
       <ul>
-        <li>{info.name}</li>
-        <li>{info.email}</li>
-        <li>{info.phoneNumber}</li>
+        <li>Hello, my name is {info.name}</li>
+        <li>My email address is {info.email}</li>
+        <li>My phone number is {info.phoneNumber}</li>
       </ul>
     </div>
   );
